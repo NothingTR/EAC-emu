@@ -1,0 +1,43 @@
+log.cpp
+dllmain.cpp
+eos_api.cpp
+legacy_api.cpp
+Kod öretiliyor...
+   build\EasyAntiCheat_EOS.lib kitaplçßç ve build\EasyAntiCheat_EOS.exp nesnesi oluüturuluyor
+driver.cpp
+log.cpp
+main.cpp
+driver_ctl.cpp
+Kod öretiliyor...
+The following certificate was selected:
+    Issued to: eac_emu_test
+    Issued by: eac_emu_test
+    Expires:   Sat Nov 06 19:58:17 2027
+    SHA1 hash: 882AABFC88C5E05B1C07BDAA714075D74B2C36C2
+
+Done Adding Additional Store
+Successfully signed: build\eac_emu.sys
+
+Number of files successfully Signed: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: build\eac_emu.sys
+
+Signature Index: 0 (Primary Signature)
+Hash of file (sha256): D00B7DAAC2F3121A3E2B37A7FBAA1ECAFC7DE31696A83F00E4B3801DE9CCB9C5
+
+Signing Certificate Chain:
+    Issued to: eac_emu_test
+    Issued by: eac_emu_test
+    Expires:   Sat Nov 06 19:58:17 2027
+    SHA1 hash: 882AABFC88C5E05B1C07BDAA714075D74B2C36C2
+
+File is not timestamped.
+
+
+Number of files successfully Verified: 0
+Number of warnings: 0
+Number of errors: 1
+SignTool Error: A certificate chain processed, but terminated in a root
+	certificate which is not trusted by the trust provider.

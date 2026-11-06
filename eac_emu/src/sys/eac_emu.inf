@@ -1,0 +1,29 @@
+[Version]
+Signature="$WINDOWS NT$"
+Class=System
+ClassGuid={4D36E97D-E325-11CE-BFC1-08002BE10318}
+Provider=%PROV%
+DriverVer=11/05/2026,1.0.0.0
+
+[DestinationDirs]
+DefaultDestDir=12
+
+[DefaultInstall]
+CopyFiles=DrvFiles
+
+[DefaultInstall.Services]
+AddService=eac_emu,,DrvService
+
+[DrvService]
+DisplayName=%SVC%
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%12%\eac_emu.sys
+
+[DrvFiles]
+eac_emu.sys
+
+[Strings]
+PROV="eac_emu"
+SVC="EasyAntiCheat Emulator"

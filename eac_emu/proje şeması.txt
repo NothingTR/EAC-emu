@@ -1,0 +1,34 @@
+eac_emu 
+   include
+       driver_ctl.h
+       eac_common.h
+       eac_types.h
+       log.h
+       spoof.h
+       xtea.h
+src   
+
+   log.cpp
+
+   ctl
+      driver_ctl.cpp
+      main.cpp   
+
+   dll
+      dllmain.cpp
+      eac_emu.def
+      eos_api.cpp
+      legacy_api.cpp
+    
+   sys
+      driver.cpp
+      eac_emu.inf
+
+build.bat
+CMakeLists.txt
+config.ini
+imzalanırken kullanılacak 40 basamaklı hex.txt
+proje şeması
+README.md
+     
+ 
